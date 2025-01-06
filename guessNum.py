@@ -267,11 +267,7 @@ def winner(): #Function prints message for winner
     congratsMessage.setFace("courier") #Sets font
     congratsMessage.draw(win) #Draws text
     
-    image = Image(Point(250, 200), "winner.png") #Imports image
-    image.draw(win) #Prints message
-    
-    return congratsMessage, image
-  
+    return congratsMessage
     
 def fail():#Function prints messages for loser
     failMessage = Text(Point(100,420), "You Lose :(") #Text message
