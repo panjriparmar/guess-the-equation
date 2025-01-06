@@ -48,7 +48,7 @@ def instructions(): #Function displays intstructions for a given amount of time
     greenHint.draw(win)
     orangeHint.draw(win)
     greyHint.draw(win)
-    time.sleep(10)
+    time.sleep(7)
 
     #Removes instruction
     intro.undraw()
